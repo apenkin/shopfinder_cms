@@ -1,0 +1,6 @@
+%h1 Articles
+.items
+  %ul
+    - collection.each do |resource|
+      %li= link_to resource.title, resource
+.pagination= paginate collection, :outer_window => 1, :window => 2

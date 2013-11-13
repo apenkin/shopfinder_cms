@@ -1,0 +1,19 @@
+= ShopfinderCms
+
+This project rocks and uses MIT-LICENSE.
+
+Simple rails engine.
+News and articles functionality for main app.
+
+
+# 1. Copy migrations to your app
+rake shopfinder_cms:install:migrations
+
+# 2. Apply migrations
+rake db:migrate
+
+# 3. Copy views
+rails g shopfinder_cms:views
+
+# 4. Update your views with your app's design
+
