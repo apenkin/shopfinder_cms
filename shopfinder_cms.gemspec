@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = ShopfinderCms::VERSION
   s.authors     = ["Alexander Penkin"]
   s.email       = ["apenkin78@gmail.com"]
-  s.homepage    = "TODO"
+  s.homepage    = "https://github.com/apenkin/shopfinder_cms"
   s.summary     = "Add news and articles functionality to application."
   s.description = "Add news and articles functionality to application. Ad admin part to manage news and articles. Active Admin is required."
 
