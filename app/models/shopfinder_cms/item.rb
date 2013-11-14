@@ -1,6 +1,6 @@
 module ShopfinderCms
   class Item < ActiveRecord::Base
-    attr_accessible :title, :text, :published_at, :image
+    attr_accessible :title, :text, :short_text, :published_at, :image
     attr_accessible :meta_title, :meta_keywords, :meta_description, :slug
 
     mount_uploader :image,  ShopfinderCms::ImageUploader
