@@ -1,7 +1,9 @@
 module ShopfinderCms
   class Article < ActiveRecord::Base
     attr_accessible :document_type, :document_id, :title, :text, :short_text, :author, :published_at, :image, :image2
-    attr_accessible :meta_title, :meta_keywords, :meta_description, :slug
+    attr_accessible :meta_title, :meta_keywords, :meta_description, :slug, :document_name
+
+    attr_accessor :document_name
 
     belongs_to :document, :polymorphic => true
 
